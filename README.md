@@ -1,14 +1,14 @@
 #include <stdio.h>
-int main(void)
-
-printf("QUAL SUA IDADE?");
-
+int main()
 {
-  int contador; //variável de controle do loop
+    int contador;
+
+ printf ("QUAL SUA IDADE?\n");
+scanf ("%i",&contador);
   
-  for(contador = 1; contador <= 10; contador++)
+  for (contador = 1; contador <= 99999;)
   {
-    printf("Eneias GAY GAY");
+    printf("Eneias GAY GAY\n");
   }
   
   return(0);
